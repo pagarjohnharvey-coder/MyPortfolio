@@ -1,0 +1,27 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>YOUR NAME — Digital Systems &amp; Google Sheets Portfolio</title>
+<meta name="description" content="Interactive portfolio showcasing Google Sheets systems, dashboards, CRM tools, financial models, automation, and business solutions.">
+<meta property="og:title" content="YOUR NAME — Digital Systems &amp; Google Sheets Portfolio"><meta property="og:description" content="Google Sheets systems, dashboards, CRM tools, financial models and automation."><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0F172A"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2360A5FA'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css"></head><body>
+<header><div class="bar"><a href="#home" id="logo" style="text-decoration:none;font-weight:700">YOUR NAME</a>
+<nav aria-label="Main"><ul id="links"></ul></nav><button id="menu" aria-label="Open menu" aria-expanded="false">☰</button></div><div id="mobile"></div></header>
+<main>
+<section id="home" class="wrap"><div><h1>I Build Digital Systems That Make Business Simpler.</h1><p class="sub">Google Sheets systems, dashboards, CRM tools, financial trackers, and practical business solutions designed to organize work and improve visibility.</p>
+<div class="cta"><a class="btn p" href="#projects">Explore My Work</a><a class="btn" href="#contact">Let's Work Together</a></div></div>
+<div class="vis" aria-hidden="true"><div class="glass"><b>Sheets</b><i style="--w:80%"></i></div><div class="glass"><b>Dashboard</b><i style="--w:65%"></i></div><div class="glass"><b>CRM</b><i style="--w:72%"></i></div><div class="glass"><b>Automation</b><i style="--w:55%"></i></div></div></section>
+<section id="about" class="wrap"><h2>About</h2><p class="sub" id="aboutText"></p><div class="stats" id="stats"></div></section>
+<section id="projects" class="wrap"><h2>Explore My Work</h2><p class="sub">See the problem, the solution and the screenshots, then open the sheet itself.</p>
+<div class="chips" id="chips"></div><div class="grid g" id="cards"></div></section>
+<section id="services" class="wrap"><h2>Services</h2><div class="grid g" id="svc"></div></section>
+<section id="process" class="wrap"><h2>Process</h2><ol class="tl" id="tl" style="margin-top:28px"></ol></section>
+<section id="skills" class="wrap"><h2>Skills &amp; tools</h2><p class="sub">Delete any you are not comfortable claiming (in index.html).</p>
+<ul class="sk"><li class="glass">Google Sheets</li><li class="glass">Google Apps Script</li><li class="glass">Excel</li><li class="glass">CRM</li><li class="glass">Dashboard Design</li><li class="glass">Financial Modeling</li><li class="glass">Automation</li><li class="glass">Canva</li><li class="glass">AI Tools</li><li class="glass">GitHub</li><li class="glass">Vercel</li></ul></section>
+<section id="contact" class="wrap" style="max-width:680px"><h2>Have a Business Problem You Want to Simplify?</h2><p class="sub">Let's build a practical system around it.</p>
+<form id="form" class="glass"><label>Name<input name="name" required autocomplete="name"></label><label>Email<input name="email" type="email" required autocomplete="email"></label>
+<label>Project type<select name="type"><option>Google Sheets system</option><option>CRM</option><option>Financial dashboard</option><option>Automation</option><option>Other</option></select></label>
+<label>Message<textarea name="message" rows="4" required></textarea></label><button class="btn p" type="submit">Send message</button><p class="note" id="formNote"></p></form>
+<div class="row" id="social" style="margin-top:20px"></div></section>
+</main><footer id="foot"></footer>
+<div id="modal" role="dialog" aria-modal="true" aria-label="Project details"><div class="sheet" id="sheet"></div></div>
+<script src="data/projects.js"></script><script src="script.js"></script></body></html>
