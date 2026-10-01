@@ -1,12 +1,12 @@
 // ===== EDIT THIS FILE FROM GITHUB (pencil icon, then Commit changes) =====
 window.SITE = {
-  name: "YOUR NAME",
-  role: "Google Sheets & Business Systems Builder",
-  location: "",          // e.g. "City, Country"
-  email: "",             // needed for the contact form
-  github: "", linkedin: "",
+  name: “John Harvey Pagar",
+  role: "Virtual Assistant ",
+  location: "Philippines",          // e.g. "City, Country"
+  email: "Pagarjohnharvey@gmail.com",             // needed for the contact form
+  github: "https://github.com/pagarjohnharvey", linkedin: "John Harvey Pagar",
   photo: "",             // e.g. "projects/me.jpg" (upload the photo first)
-  about: "Write 2-3 sentences: what you build, who you help, and why practical systems matter to you.",
+  about: "I’m an aspiring Virtual Assistant passionate about organization, productivity, and using digital tools to make work more efficient. I enjoy building practical systems, managing information, and continuously learning new skills to help businesses stay organized and focused on what matters.",
   helpWith: ["Building or cleaning up Google Sheets trackers","Setting up client and lead tracking (CRM)","Invoice, expense and cash-flow tracking","Dashboards and weekly or monthly reports","Data entry and spreadsheet organization","Documenting a system so others can use it"],
   stats: [],             // optional real numbers: [{label:"Clients helped", value:"3"}]
   // Resume: leave empty until you have real entries. Example item:
